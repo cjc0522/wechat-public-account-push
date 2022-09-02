@@ -4,10 +4,10 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx53345ddb31806dc8",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "86f7258ef5f85eecc08211ac5bc27b90",
 
     // 模板消息id
     TEMPLATE_ID: "",
@@ -19,19 +19,14 @@ export const config = {
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '老婆0', id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
-     * ]
+     *   {name: '老婆0', id: "okgsU5zg4k5UMPQIX1X3MSXYd_vE"}, 
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '老婆0', id: "okgsU5zg4k5UMPQIX1X3MSXYd_vE"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "okgsU5zg4k5UMPQIX1X3MSXYd_vE"}, 
     ],
      
     /**
@@ -41,9 +36,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "天津",
     // 所在城市
-    CITY: "惠州",
+    CITY: "天津",
 
     /** 重要节日相关 */
 
@@ -78,8 +73,6 @@ export const config = {
       {"keyword": "love_day", date: "2015-05-01"},
       // 结婚纪念日
       {"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
       // ... 
